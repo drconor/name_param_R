@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"named_parameters": true,
+	"parameters": [
+		{
+			"id": "9KlDblCXPFpxEGgD",
+			"name": "Message to echo",
+			"param_name": "message",
+			"description": "Your message to print",
+			"type": "text",
+			"value_type": "string",
+			"default_value": "Hello, big world!",
+			"required": true
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"base_image": "codeocean/r:4.4",
+	"options": {
+		"registry_host_arg": true,
+		"git_ask_pass": true
+	},
+	"installers": {
+		"rcran": {
+			"packages": [
+				{
+					"name": "optparse",
+					"version": "1.7.5"
+				}
+			],
+			"install_remotes": true,
+			"use_rcache": true
+		}
+	}
+}

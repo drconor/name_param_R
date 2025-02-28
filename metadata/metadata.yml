@@ -1,0 +1,6 @@
+metadata_version: 1
+name: Test R named params
+description: testing whether default params get passed even though non-default are
+  selected.
+authors:
+- name: Conor

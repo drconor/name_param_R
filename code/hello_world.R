@@ -4,8 +4,9 @@ library(optparse)
 
 # Define the command-line argument
 option_list <- list(
-  make_option(c("-m", "--message"), type="character", default="Hello, world!",
-              help="Message to print [default: %default]")
+  make_option(c("-m", "--message"), type="character", default="Hello, world!", help="Message to print [default: %default]"),
+  make_option(c("-s", "--secondparam"), type="character", default="this is another parameter!",
+              help="Enter Second Param [default: %default2]")
 )
 
 # Create the parser
@@ -14,7 +15,7 @@ opt <- parse_args(opt_parser)
 
 # Print the message
 cat(opt$message, "\n")
-
+cat(opt$secondparam, "\n")
 
 # Define output directory and file
 output_dir <- "../results"

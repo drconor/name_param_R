@@ -11,6 +11,13 @@
 			"value_type": "string",
 			"default_value": "Hello, big world!",
 			"required": true
+		},
+		{
+			"id": "lg9c21ztE4jlPBSf",
+			"name": "Second Parameter",
+			"param_name": "secondparam",
+			"type": "text",
+			"value_type": "string"
 		}
 	]
 }

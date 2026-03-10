@@ -1,6 +1,5 @@
 metadata_version: 1
 name: Demo - Passing Named parameters to R
-description: testing whether default params get passed even though non-default are
-  selected.
+description: Illustrates how to pass named parameters via an app panel
 authors:
 - name: Conor
